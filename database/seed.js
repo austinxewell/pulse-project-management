@@ -108,7 +108,7 @@ const seedTasks = async (numEntries, projectsIds, userId) => {
 
   for (let i = 0; i < numEntries; i++) {
     tasks.push({
-      name: faker.lorem.words(3),
+      //name: faker.lorem.words(3),
       status: faker.helpers.arrayElement(['in-progress', 'completed']),
       description: faker.lorem.paragraph(),
       due_date: faker.date.future(),

@@ -41,7 +41,6 @@ const validCollabs = collabs.filter((collab) => !('error' in collab)) as Profile
       <TableRow>
         <TableHead> Description </TableHead>
         <TableCell>
-          text-sm
           <AppInPlaceEditTextarea
             class="h-20"
             v-model="project.description"

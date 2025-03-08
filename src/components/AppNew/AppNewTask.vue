@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { CreateNewTask } from '@/types/CreateNewForm'
 import { createNewTaskQuery, profilesQuery, projectsQuery } from '@/utils/supaQueries'
-import { FormKit } from '@formkit/vue'
 
 const sheetOpen = defineModel<boolean>()
 

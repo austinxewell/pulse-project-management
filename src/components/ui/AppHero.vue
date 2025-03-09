@@ -66,7 +66,7 @@ export default defineComponent({
         <h1
           class="p-2 text-3xl sm:text-4xl md:text-5xl font-extrabold text-center leading-[1.3] text-transparent animate-gradient-text"
         >
-          Organizing projects to simplify your workflow
+          Organizing Projects To Simplify Your Workflow
         </h1>
       </div>
 

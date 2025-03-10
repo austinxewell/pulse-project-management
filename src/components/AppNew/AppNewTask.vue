@@ -2,6 +2,7 @@
 import type { CreateNewTask } from '@/types/CreateNewForm'
 import { createNewTaskQuery, profilesQuery, projectsQuery } from '@/utils/supaQueries'
 import { getLocalTimeZone } from '@internationalized/date'
+import { showToast } from '@/utils/sweetalert'
 import type { DateValue } from '@internationalized/date'
 
 const sheetOpen = defineModel<boolean>()
@@ -67,8 +68,9 @@ const createTask = async (formData: CreateNewTask) => {
   const { error } = await createNewTaskQuery(task)
 
   if (error) {
-    console.log(error)
-  }
+    showToast('error', 'Oops! That didn’t work. Let’s try that again!')
+    console.error(error)
+  } else showToast('success', 'Nice! Another task bites the dust!')
 
   sheetOpen.value = false
 }

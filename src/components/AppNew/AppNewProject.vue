@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { CreateNewProject } from '@/types/CreateNewForm'
 import { createNewProjectQuery } from '@/utils/supaQueries'
+import { showToast } from '@/utils/sweetalert'
 
 const { profile } = storeToRefs(useAuthStore())
 
@@ -16,8 +17,9 @@ const createProject = async (formData: CreateNewProject) => {
   const { error } = await createNewProjectQuery(project)
 
   if (error) {
-    console.log(error)
-  }
+    showToast('error', 'Oops! That didn’t work. Let’s try that again!')
+    console.error(error)
+  } else showToast('success', 'Boom! A fresh new project is born!')
 
   sheetOpen.value = false
 }

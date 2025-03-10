@@ -1,6 +1,7 @@
 import { projectQuery, projectsQuery, updateProjectQuery } from '@/utils/supaQueries'
 import { useMemoize } from '@vueuse/core'
 import type { Project, Projects } from '@/utils/supaQueries'
+import { showToast } from '@/utils/sweetalert'
 
 export const useProjectsStore = defineStore('projects-store', () => {
   const projects = ref<Projects | null>(null)
@@ -71,7 +72,12 @@ export const useProjectsStore = defineStore('projects-store', () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { tasks, id, ...projectProperties } = project.value
 
-    await updateProjectQuery(projectProperties, project.value.id)
+    const { error } = await updateProjectQuery(projectProperties, project.value.id)
+
+    if (error) {
+      showToast('error', 'Oops! That didn’t work. Let’s try that again!')
+      console.error(error)
+    } else showToast('success', 'Project updated! Let’s keep the momentum going!')
   }
 
   return {

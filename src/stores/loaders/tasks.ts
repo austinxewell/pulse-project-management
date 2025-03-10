@@ -6,6 +6,7 @@ import {
 } from '@/utils/supaQueries'
 import type { Task, TasksWithProjects } from '@/utils/supaQueries'
 import { useMemoize } from '@vueuse/core'
+import { showToast } from '@/utils/sweetalert'
 
 export const useTaskStore = defineStore('tasks-store', () => {
   const tasks = ref<TasksWithProjects | null>(null)
@@ -76,13 +77,23 @@ export const useTaskStore = defineStore('tasks-store', () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { projects, id, ...taskProperties } = task.value
 
-    await updateTaskQuery(taskProperties, task.value.id)
+    const { error } = await updateTaskQuery(taskProperties, task.value.id)
+
+    if (error) {
+      showToast('error', 'Oops! That didn’t work. Let’s try that again!')
+      console.error(error)
+    } else showToast('success', 'Task updated! Let’s keep the momentum going!')
   }
 
   const deleteTask = async () => {
     if (!task.value) return
 
-    await deleteTasQuery(task.value.id)
+    const { error } = await deleteTasQuery(task.value.id)
+
+    if (error) {
+      showToast('error', 'Oops! That didn’t work. Let’s try that again!')
+      console.error(error)
+    } else showToast('success', 'Poof! Task is gone!')
   }
 
   return {

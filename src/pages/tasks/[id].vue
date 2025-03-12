@@ -53,7 +53,11 @@ const triggerDelete = async () => {
       </TableRow>
       <TableRow>
         <TableHead> Project </TableHead>
-        <TableCell>{{ task.projects?.name }}</TableCell>
+        <TableCell>
+          <RouterLink :to="`/projects/${task.projects?.slug}`">
+            {{ task.projects?.name }}
+          </RouterLink>
+        </TableCell>
       </TableRow>
       <TableRow>
         <TableHead> Status </TableHead>

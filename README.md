@@ -119,7 +119,7 @@ Distributed under the MIT License. See [MIT License](https://opensource.org/lice
 - Pinia for state management.
 - Vite for fast development builds.
 
-  ---
+---
 
 ## 👨‍💻 Author
 

@@ -2,6 +2,11 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://pulse-project-managment.netlify.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub%20Repo-View-blue)](https://github.com/austinxewell/pulse-project-management)
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+![Vue 3](https://img.shields.io/badge/Vue-3.x-42b883?style=flat-square&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?style=flat-square&logo=typescript)
+![Pinia](https://img.shields.io/badge/State-Pinia-yellow?style=flat-square&logo=pinia)
+![License](https://img.shields.io/github/license/austinxewell/bag-of-tricks?style=flat-square)
+
 
 ![Pulse Logo](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
 

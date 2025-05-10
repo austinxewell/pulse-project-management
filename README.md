@@ -1,5 +1,6 @@
 # Pulse
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://pulse-project-managment.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/635028ac-289d-409a-93e0-ab5423dd3c83/deploy-status)](https://app.netlify.com/sites/pulse-project-managment/deploys)
 [![GitHub Repo](https://img.shields.io/badge/GitHub%20Repo-View-blue)](https://github.com/austinxewell/pulse-project-management)
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 ![Vue 3](https://img.shields.io/badge/Vue-3.x-42b883?style=flat-square&logo=vue.js&logoColor=white)

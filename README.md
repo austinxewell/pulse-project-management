@@ -85,3 +85,39 @@ To run Pulse locally, follow these steps:
 
    ```bash
    git clone https://github.com/austinxewell/pulse-project-management.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd pulse-project-management
+   npm install
+   ```
+
+3. Set up environment variables for Supabase authentication.
+
+4. Run the development server:
+  ```bash
+  npm run dev
+  ```
+## Live Demo Access
+**Note:** Account creation is disabled due to Supabase limitations on the free-tier project. To explore the full functionality, use the following demo credentials:
+
+- **Email:** austin.ewell86@gmail.com
+- **Password:** password
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/your-feature)
+3. Commit your changes (git commit -am 'Add new feature')
+4. Push to the branch (git push origin feature/your-feature)
+5. Open a Pull Request
+
+## License
+Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
+
+## Acknowledgements
+- Supabase for the backend services.
+- Nuxt 3 for the framework.
+- Tailwind CSS for styling.
+- Pinia for state management.
+- Vite for fast development builds.

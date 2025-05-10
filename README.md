@@ -96,9 +96,9 @@ To run Pulse locally, follow these steps:
 3. Set up environment variables for Supabase authentication.
 
 4. Run the development server:
-  ```bash
-  npm run dev
-  ```
+    ```bash
+    npm run dev
+    ```
 ## Live Demo Access
 **Note:** Account creation is disabled due to Supabase limitations on the free-tier project. To explore the full functionality, use the following demo credentials:
 

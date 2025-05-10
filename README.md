@@ -5,8 +5,6 @@
 ![Vue 3](https://img.shields.io/badge/Vue-3.x-42b883?style=flat-square&logo=vue.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?style=flat-square&logo=typescript)
 ![Pinia](https://img.shields.io/badge/State-Pinia-yellow?style=flat-square&logo=pinia)
-![License](https://img.shields.io/github/license/austinxewell/bag-of-tricks?style=flat-square)
-
 
 ![Pulse Logo](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
 

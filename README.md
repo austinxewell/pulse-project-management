@@ -11,11 +11,15 @@
 
 **Pulse** is a modern project management application built with a cutting-edge frontend stack to help you manage and track workflows. Designed for teams and individuals, Pulse offers seamless task management, real-time updates, and project-level dashboards.
 
-[Live Demo](https://pulse-project-managment.netlify.app/) | [GitHub Repo](https://github.com/austinxewell/pulse-project-management)
+---
+
+## 🔗 Live Demo
+
+**[View the App on Netlify](https://pulse-project-managment.netlify.app/)**
 
 ---
 
-## Overview
+## 📦 About the Project
 
 **Pulse** is a full-featured project management application built with **Nuxt 3**, **TypeScript**, and **Tailwind CSS**. The platform is designed to help users manage complex workflows with clarity and speed. Pulse includes features such as:
 
@@ -28,46 +32,40 @@ On the technical side, Pulse integrates **Supabase** for backend services such a
 
 ---
 
-## Features
+## 🛠 Tech Stack & Features
 
-- **Real-time Feedback**: Instant updates and notifications.
-- **Light/Dark Mode**: Toggle between light and dark themes globally.
-- **Form Validation**: Inline validation for forms with clear error messages.
-- **Task & Project Management**: Detailed tracking of tasks and project timelines.
-- **Responsive UI**: Optimized for both desktop and mobile environments.
-- **Collaborative**: Real-time updates for all members within a workspace.
+| **Technology / Feature** | **Purpose / Description**                                              |
+|--------------------------|------------------------------------------------------------------------|
+| **Vue 3**                | Frontend framework (Composition API)                                   |
+| **TypeScript**           | Type safety and development clarity                                    |
+| **Tailwind CSS**         | Utility-first styling framework                                        |
+| **Pinia**                | Lightweight state management                                           |
+| **Vite**                 | Fast build tool with hot module replacement                            |
+| **FormKit**              | Form scaffolding and validation                                        |
+| **TanStack Table**       | Advanced client-side table with filtering and sorting                  |
+| **Reka UI**              | UI component library for consistent design                             |
+| **Iconify**              | Scalable vector icon integration                                       |
+| **SweetAlert2**          | Custom modal popups and alerts                                         |
+| **Supabase**             | Backend services: auth, DB, and real-time                              |
+| **localStorage**         | Client-side data persistence                                           |
+| **Real-time Feedback**   | Instant UI updates and toast notifications                             |
+| **Light/Dark Mode**      | Global theming options for user preference                             |
+| **Form Validation**      | Inline validation with error feedback                                  |
 
----
 
-## Tech Stack
-
-- **Frontend**: 
-  - Nuxt 3
-  - TypeScript
-  - Tailwind CSS
-  - Pinia
-  - Vite
-  - FormKit
-  - TanStack Table
-  - Reka UI
-  - Iconify
-  - SweetAlert2
-  - FakerJS
-
-- **Backend**:
-  - Supabase (Authentication, Database, Real-time)
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 | ![Landing Page](https://i.postimg.cc/Gp5JydPy/pulse-landing.png) <br /> *Landing Page - Dark Mode* | ![Login](https://i.postimg.cc/bvTph7cJ/pulse-login.png) <br /> *Login Screen* |
 |:--:|:--:|
 | ![Projects](https://i.postimg.cc/vTRr0hN8/pulse-projects.png) <br /> *Project Management Overview* | ![Task Management](https://i.postimg.cc/TPdk5SSB/Tasks.png) <br /> *Task Overview* |
 | ![Create New Task Form](https://i.postimg.cc/gjHXhM1B/pulse-task-creating.png) <br /> *Creating a New Task* | ![Create New Project Form](https://i.postimg.cc/9MTqmXb2/pulse-project-creation.png) <br /> *Creating a New Project* |
 
+---
 
-## Setup
+## 🚀 Getting Started
 
 To run Pulse locally, follow these steps:
 
@@ -89,25 +87,44 @@ To run Pulse locally, follow these steps:
     ```bash
     npm run dev
     ```
-## Live Demo Access
+
+---
+
+## 🌐 Live Demo Access
 **Note:** Account creation is disabled due to Supabase limitations on the free-tier project. To explore the full functionality, use the following demo credentials:
 
 - **Email:** austin.ewell86@gmail.com
 - **Password:** password
 
-## Contributing
+---
+
+## 🤝 Contributing
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/your-feature)
 3. Commit your changes (git commit -am 'Add new feature')
 4. Push to the branch (git push origin feature/your-feature)
 5. Open a Pull Request
 
-## License
+---
+
+## 📄 License
 Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
 
-## Acknowledgements
+---
+
+## 🙏 Acknowledgements
 - Supabase for the backend services.
 - Nuxt 3 for the framework.
 - Tailwind CSS for styling.
 - Pinia for state management.
 - Vite for fast development builds.
+
+  ---
+
+## 👨‍💻 Author
+
+**Austin Ewell**  
+Front End Developer | Creator of **Bag of Tricks**  
+🔗 [GitHub](https://github.com/austinxewell)
+
+---

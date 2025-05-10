@@ -1,10 +1,9 @@
 # Pulse
-
-![Pulse Logo](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
-
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://pulse-project-managment.netlify.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub%20Repo-View-blue)](https://github.com/austinxewell/pulse-project-management)
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+
+![Pulse Logo](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
 
 **Pulse** is a modern project management application built with a cutting-edge frontend stack to help you manage and track workflows. Designed for teams and individuals, Pulse offers seamless task management, real-time updates, and project-level dashboards.
 

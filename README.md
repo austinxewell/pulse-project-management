@@ -57,25 +57,11 @@ On the technical side, Pulse integrates **Supabase** for backend services such a
 
 ## Screenshots
 
-![Landing Page](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
-*Landing Page - Dark Mode*
+| ![Landing Page](https://i.postimg.cc/Gp5JydPy/pulse-landing.png) <br /> *Landing Page - Dark Mode* | ![Login](https://i.postimg.cc/bvTph7cJ/pulse-login.png) <br /> *Login Screen* |
+|:--:|:--:|
+| ![Projects](https://i.postimg.cc/vTRr0hN8/pulse-projects.png) <br /> *Project Management Overview* | ![Task Management](https://i.postimg.cc/TPdk5SSB/Tasks.png) <br /> *Task Overview* |
+| ![Create New Task Form](https://i.postimg.cc/gjHXhM1B/pulse-task-creating.png) <br /> *Creating a New Task* | ![Create New Project Form](https://i.postimg.cc/9MTqmXb2/pulse-project-creation.png) <br /> *Creating a New Project* |
 
-![Login](https://i.postimg.cc/bvTph7cJ/pulse-login.png)
-*Login Screen*
-
-![Projects](https://i.postimg.cc/vTRr0hN8/pulse-projects.png)
-*Project Management Overview*
-
-![Task Management](https://i.postimg.cc/TPdk5SSB/Tasks.png)
-*Task Overview*
-
-![Create New Task Form](https://i.postimg.cc/gjHXhM1B/pulse-task-creating.png)
-*Creating a New Task*
-
-![Create New Project Form](https://i.postimg.cc/9MTqmXb2/pulse-project-creation.png)
-*Creating a New Project*
-
----
 
 ## Setup
 

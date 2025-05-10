@@ -1,41 +1,88 @@
-# vuejs-masterclass-2024
+# Pulse
 
-view live app on: https://pulse-project-managment.netlify.app/
+![Pulse Logo](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://pulse-project-managment.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub%20Repo-View-blue)](https://github.com/austinxewell/pulse-project-management)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
-## Recommended IDE Setup
+**Pulse** is a modern project management application built with a cutting-edge frontend stack to help you manage and track workflows. Designed for teams and individuals, Pulse offers seamless task management, real-time updates, and project-level dashboards.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[Live Demo](https://pulse-project-managment.netlify.app/) | [GitHub Repo](https://github.com/austinxewell/pulse-project-management)
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Overview
 
-## Customize configuration
+**Pulse** is a full-featured project management application built with **Nuxt 3**, **TypeScript**, and **Tailwind CSS**. The platform is designed to help users manage complex workflows with clarity and speed. Pulse includes features such as:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Task Management**: Create, organize, and track tasks efficiently.
+- **Project-level Dashboards**: Get an overview of your projects and their progress.
+- **Collaborative Workspaces**: Work with teams in real-time.
+- **User Authentication**: Secure login and account management with **Supabase**.
 
-## Project Setup
+On the technical side, Pulse integrates **Supabase** for backend services such as authentication and database management, and uses **Pinia** for state management. **Vite** ensures fast builds, while **Reka UI** and **Tailwind CSS** provide consistent, responsive design components.
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## Features
 
-```sh
-npm run dev
-```
+- **Real-time Feedback**: Instant updates and notifications.
+- **Light/Dark Mode**: Toggle between light and dark themes globally.
+- **Form Validation**: Inline validation for forms with clear error messages.
+- **Task & Project Management**: Detailed tracking of tasks and project timelines.
+- **Responsive UI**: Optimized for both desktop and mobile environments.
+- **Collaborative**: Real-time updates for all members within a workspace.
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## Tech Stack
 
-### Lint with [ESLint](https://eslint.org/)
+- **Frontend**: 
+  - Nuxt 3
+  - TypeScript
+  - Tailwind CSS
+  - Pinia
+  - Vite
+  - FormKit
+  - TanStack Table
+  - Reka UI
+  - Iconify
+  - SweetAlert2
+  - FakerJS
 
-```sh
-npm run lint
-```
+- **Backend**:
+  - Supabase (Authentication, Database, Real-time)
+
+---
+
+## Screenshots
+
+![Landing Page](https://i.postimg.cc/Gp5JydPy/pulse-landing.png)
+*Landing Page - Dark Mode*
+
+![Login](https://i.postimg.cc/bvTph7cJ/pulse-login.png)
+*Login Screen*
+
+![Projects](https://i.postimg.cc/vTRr0hN8/pulse-projects.png)
+*Project Management Overview*
+
+![Task Management](https://i.postimg.cc/TPdk5SSB/Tasks.png)
+*Task Overview*
+
+![Create New Task Form](https://i.postimg.cc/gjHXhM1B/pulse-task-creating.png)
+*Creating a New Task*
+
+![Create New Project Form](https://i.postimg.cc/9MTqmXb2/pulse-project-creation.png)
+*Creating a New Project*
+
+---
+
+## Setup
+
+To run Pulse locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/austinxewell/pulse-project-management.git
